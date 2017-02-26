@@ -70,3 +70,72 @@ SkeletalMinion:
   - skill{s=Heal} @Target >0 0.2
   Options:
     MovementSpeed: 0.1
+pig_1:
+  Mobtype: baby_zombie
+  Display: '&c屍化小豬'
+  Health: 30
+  Armor: 10
+  Damage: 5
+  Equipment:
+  Disguise:
+    Type: pig
+    ShowName: false
+pig_2:
+  Mobtype: creeper
+  Display: '&4爆炸豬豬'
+  Health: 4
+  Damage: 500
+  Disguise:
+    Type: pig
+    ShowName: false
+cow_1:
+  Mobtype: baby_zombie
+  Display: '&c屍化牛牛'
+  Health: 30
+  Armor: 10
+  Damage: 5
+  Disguise:
+    Type: cow
+    ShowName: false
+cow_2:
+  Mobtype: creeper
+  Display: '&4爆炸牛牛'
+  Health: 4
+  Damage: 500
+  Disguise:
+    Type: cow
+    ShowName: false
+sheep_1:
+  Mobtype: baby_zombie
+  Display: '&c屍化綿羊'
+  Health: 30
+  Armor: 10
+  Damage: 5
+  Disguise:
+    Type: sheep
+    ShowName: false
+sheep_2:
+  Mobtype: creeper
+  Display: '&4爆炸綿羊'
+  Health: 4
+  Damage: 500
+  Disguise:
+    Type: sheep
+    ShowName: false
+villager_1:
+  Mobtype: baby_zombie
+  Display: '&c壞掉的村民'
+  Health: 20
+  Armor: 5
+  Damage: 15
+  Disguise:
+    Type: villager
+    ShowName: false
+villager_2:
+  Mobtype: creeper
+  Display: '&4自殺炸彈客'
+  Health: 4
+  Damage: 500
+  Disguise:
+    Type: villager
+    ShowName: false
